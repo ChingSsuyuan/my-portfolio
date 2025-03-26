@@ -1,3 +1,0 @@
-﻿This is the EC512 empty web application template. 
-
-DO NOT DELETE THIS FILE!
