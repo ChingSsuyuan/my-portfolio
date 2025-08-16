@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experience Map</title>
+    <link rel="stylesheet" href="map.css">
+</head>
+
+<body>
+    <section class="experience-section">
+        <div class="experience-content">
+            <div class="header">
+                <h1>Experience Map</h1>
+                <p>My Journey Across Continents</p>
+            </div>
+            
+            <div class="map-container">
+                <div class="world-map">
+                    <div class="timeline-container"></div>
+                    
+                    <!-- Location Pins with Flag Icons -->
+                    <div class="location-pin pin-china-1" onclick="toggleCard('china-1')">
+                        <span class="flag-icon">🇨🇳</span>
+                    </div>
+                    <div class="location-pin pin-china-2" onclick="toggleCard('china-2')">
+                        <span class="flag-icon">🇨🇳</span>
+                    </div>
+                    <div class="location-pin pin-usa-1" onclick="toggleCard('usa-1')">
+                        <span class="flag-icon">🇺🇸</span>
+                    </div>
+                    <div class="location-pin pin-usa-2" onclick="toggleCard('usa-2')">
+                        <span class="flag-icon">🇺🇸</span>
+                    </div>
+                    
+                    <!-- Experience Cards -->
+                    <div id="card-china-1" class="experience-card card-china-1">
+                        <h3><span class="flag-icon">🇨🇳</span>Education Experience</h3>
+                        <div class="duration">2020 Sep - 2024 May</div>
+                        <div class="description">
+                            <strong>University:</strong> China University of Mining and Technology<br>
+                            <strong>Degree:</strong>B.S. Energy Application Engineering<br>
+                            <strong>Focus:</strong> Mechanical Engineering, Electrical Engineering<br>
+                            <strong>Skills:</strong> C/C++, Matlab, Python
+                        </div>
+                    </div>
+                    
+                    <div id="card-china-2" class="experience-card card-china-2">
+                        <h3><span class="flag-icon">🇨🇳</span> China Internship</h3>
+                        <div class="duration">2024 June - 2024 Aug</div>
+                        <div class="description">
+                            <strong>Company:</strong>Flexium Interconnect<br>
+                            <strong>Role:</strong> Software Development Intern<br>
+                            <strong>Focus:</strong>Work order Automation System Design<br>
+                            <strong>Skills:</strong> Python, Flask, Full-stack Development
+                        </div>
+                    </div>
+                    
+                    <div id="card-usa-1" class="experience-card card-usa-1">
+                        <h3><span class="flag-icon">🇺🇸</span> Education Experience</h3>
+                        <div class="duration">2024 Sep - 2026 Jan</div>
+                        <div class="description">
+                            <strong>Institution:</strong> Boston University<br>
+                            <strong>Program:</strong> M.S. Electrical & Computer Engineering <br>
+                            <strong>Focus:</strong>Algorithms & Deep Learning<br>
+                            <strong>Courses:</strong> Deep Learning, Cloud Computering, Advanced Data Structurr
+                        </div>
+                    </div>
+                    
+                    <div id="card-usa-2" class="experience-card card-usa-2">
+                        <h3><span class="flag-icon">🇺🇸</span> Projects</h3>
+                        <div class="duration">2024 - Present</div>
+                        <div class="description">
+                            <strong>Institution:</strong> Boston University<br>
+                            <strong>Program:</strong> M.S. Electrical & Computer Engineering<br>
+                            <strong>Focus:</strong>AI Model Development<br>
+                            <strong>Projects:</strong> Image Segmentation Project & Image Caption Generation System
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- <div class="navigation">
+                    <a href="../index.html#profile" class="nav-button">← Back to Profile</a>
+                    <a href="../index.html#projects" class="nav-button">View Projects →</a>
+                </div> -->
+            </div>
+        </div>
+    </section>
+    <script src="map.js"></script>
+</body>
+</html>
