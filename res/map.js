@@ -106,12 +106,10 @@
                             card.classList.add('show', 'permanent');
                             permanentCards.add(step.card);
                         }
-                    }, index * 1500); 
+                    }, index * 2000); 
                 });
-            }, 1500);
+            }, 2000);
         }
-
-        // Main initialization function
         function initializeMap() {
             initializePinHoverEffects();
             initializeNavigation();
